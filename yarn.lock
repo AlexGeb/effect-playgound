@@ -15,19 +15,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@effect/data@npm:^0.12.2, @effect/data@npm:~0.12.2":
-  version: 0.12.2
-  resolution: "@effect/data@npm:0.12.2"
-  checksum: d4c3aaef497cefa15e2c0f25cd0d63ff40467abb45d43847209b09b2cc0ea9580be48f95f7949118a67f5983ea59c0acd3d335e959dca69bb2df1db55620c2e9
+"@effect/data@npm:^0.12.7, @effect/data@npm:~0.12.6":
+  version: 0.12.8
+  resolution: "@effect/data@npm:0.12.8"
+  checksum: 26431744aadb6083441e745d986ebae59c08c4f8a826cb4f61f203cb05c6dd32a2ce6337ce6bf34667383f123b880817f162cd9e664aad5956e8c84496cc4cf9
   languageName: node
   linkType: hard
 
-"@effect/io@npm:^0.25.2, @effect/io@npm:^0.25.6":
-  version: 0.25.6
-  resolution: "@effect/io@npm:0.25.6"
+"@effect/io@npm:^0.26.0":
+  version: 0.26.1
+  resolution: "@effect/io@npm:0.26.1"
   dependencies:
-    "@effect/data": ~0.12.2
-  checksum: cce65da2749117918f078fe7303d0dd1ac8b42006530e27808a62f4029af9bd4a99c764e1ad72756eb4e59195e53a78af65d44395cb8c15dee8707acdb2c15f4
+    "@effect/data": ~0.12.6
+  checksum: 0e1e345e2c5228704b8d0b2df3476d5a8c99c1a0705f53d9188ac14a778a141bd58dc5f03da720227b5fb28d1e0077510ac27e988e8ce230fdde5639c6e796d3
   languageName: node
   linkType: hard
 
@@ -40,14 +40,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@effect/schema@npm:^0.17.2":
-  version: 0.17.2
-  resolution: "@effect/schema@npm:0.17.2"
+"@effect/schema@npm:^0.20.2":
+  version: 0.20.2
+  resolution: "@effect/schema@npm:0.20.2"
   dependencies:
-    "@effect/data": ^0.12.2
-    "@effect/io": ^0.25.2
-    fast-check: ^3.8.1
-  checksum: 6f792fbdb35173fa62601dded96dbff479ab4c7d0484cc96850193a872543c8a470850874627e962c136790c955f8f0240e6b179e0cd7dc9b75f465bbdc5fe2b
+    "@effect/data": ^0.12.7
+    "@effect/io": ^0.26.0
+    fast-check: ^3.10.0
+  checksum: 1da3cb52e1d414f108c94c286c41ace7918a41a61d6676c5e1ed8300f7bf91bc536bf44ab05c9586150e8b3906085aefc5490f3969a0924b3034fe44a4c1b2ba
   languageName: node
   linkType: hard
 
@@ -443,10 +443,10 @@ __metadata:
   resolution: "effect-playground@workspace:."
   dependencies:
     "@effect/core": ^0.0.16
-    "@effect/data": ^0.12.2
-    "@effect/io": ^0.25.6
-    "@effect/schema": ^0.17.2
-    typescript: ^5.0.4
+    "@effect/data": ^0.12.7
+    "@effect/io": ^0.26.0
+    "@effect/schema": ^0.20.2
+    typescript: ^5.1.3
     vite-node: ^0.30.1
   languageName: unknown
   linkType: soft
@@ -558,12 +558,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-check@npm:^3.8.1":
-  version: 3.8.1
-  resolution: "fast-check@npm:3.8.1"
+"fast-check@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "fast-check@npm:3.10.0"
   dependencies:
     pure-rand: ^6.0.0
-  checksum: be75fad548b71b3096a0564c0d1b04bc7702e06a9ebed62b635541a53b35eaa1af66a9c7ed262384732bb4b169785f436345579ec03fa6f28a9f3dbfbbfb599a
+  checksum: 8937e2dc8416e44bd23d6330fcb2c54a2c538944d40d53e6f379a01b79b1490cd8a4a81cd47ffa5aa8a7df71a0eccaae007371c639fd2dd43ae7507e9de8ec57
   languageName: node
   linkType: hard
 
@@ -1261,23 +1261,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.0.4":
-  version: 5.0.4
-  resolution: "typescript@npm:5.0.4"
+"typescript@npm:^5.1.3":
+  version: 5.1.3
+  resolution: "typescript@npm:5.1.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 82b94da3f4604a8946da585f7d6c3025fff8410779e5bde2855ab130d05e4fd08938b9e593b6ebed165bda6ad9292b230984f10952cf82f0a0ca07bbeaa08172
+  checksum: d9d51862d98efa46534f2800a1071a613751b1585dc78884807d0c179bcd93d6e9d4012a508e276742f5f33c480adefc52ffcafaf9e0e00ab641a14cde9a31c7
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^5.0.4#~builtin<compat/typescript>":
-  version: 5.0.4
-  resolution: "typescript@patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"
+"typescript@patch:typescript@^5.1.3#~builtin<compat/typescript>":
+  version: 5.1.3
+  resolution: "typescript@patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=5da071"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: bb309d320c59a26565fb3793dba550576ab861018ff3fd1b7fccabbe46ae4a35546bc45f342c0a0b6f265c801ccdf64ffd68f548f117ceb7f0eac4b805cd52a9
+  checksum: 6f0a9dca6bf4ce9dcaf4e282aade55ef4c56ecb5fb98d0a4a5c0113398815aea66d871b5611e83353e5953a19ed9ef103cf5a76ac0f276d550d1e7cd5344f61e
   languageName: node
   linkType: hard
 
