@@ -3,6 +3,7 @@ import { pipe } from "@effect/data/Function";
 import * as Pretty from "@effect/schema/Pretty";
 import * as Schema from "@effect/schema/Schema";
 import * as TreeFormatter from "@effect/schema/TreeFormatter";
+import "./MySchema";
 
 const Person = Schema.struct({
   name: Schema.string,
